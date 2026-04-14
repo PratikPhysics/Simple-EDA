@@ -1,0 +1,68 @@
+
+🧠 1. Zero-Shot Prompting
+👉 You give no examples, just ask directly
+Example:
+“Translate this sentence to French: I love AI.”
+✔️ Model uses its pre-trained knowledge
+
+📚 2. One-Shot Prompting
+👉 You give one example
+Example:
+English: Hello → French: Bonjour  
+English: Good morning → ?
+
+✔️ Helps model understand pattern
+
+🔁 3. Few-Shot Prompting
+👉 You give multiple examples
+Example:
+2 + 2 = 4  
+3 + 5 = 8  
+7 + 1 = ?
+
+✔️ Improves accuracy for structured tasks
+
+🧩 4. Chain-of-Thought (CoT)
+👉 Ask model to think step-by-step
+Example:
+“Solve this step by step: If a train travels 60 km in 1 hour…”
+✔️ Great for math, logic, reasoning
+
+🎭 5. Role-Based Prompting
+👉 Assign a role/persona
+Example:
+“You are a senior data scientist. Explain overfitting simply.”
+✔️ Makes answers more targeted
+
+🧪 6. Instruction-Based Prompting
+👉 Clear task instructions
+Example:
+“Summarize this paragraph in 3 bullet points.”
+✔️ Most common and effective
+
+🔄 7. Iterative Prompting
+👉 Refine output step-by-step
+Example:
+“Write a paragraph on AI”
+“Make it simpler”
+“Add examples”
+✔️ Used in real workflows
+
+🧠 8. Contextual Prompting
+👉 Provide background/context
+Example:
+“This is a 6th-grade class. Explain photosynthesis.”
+✔️ Improves relevance
+
+🧮 9. Output Formatting Prompt
+👉 Specify output format
+Example:
+“Give answer in JSON format with keys: name, age”
+✔️ Useful for apps & APIs
+
+🔍 10. Retrieval-Augmented Prompting (RAG-style)
+👉 Provide external data/context
+Example:
+“Based on this document: [text], answer the question…”
+✔️ Used in chatbots with knowledge base
+
